@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+  
+section {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+#about{
+    position: relative;
+    background-color: #6B240C;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+#AboutText{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
